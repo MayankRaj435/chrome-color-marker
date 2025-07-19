@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Custom Tab Color Marker",
+  "version": "1.1",
+  "description": "Marks each tab with a unique color the moment it is created.",
+  "permissions": ["tabs", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}
